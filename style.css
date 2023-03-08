@@ -1,0 +1,85 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+MAIN COLOR : #087f5b
+GREY COLOR : #343a40
+ */
+
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+
+ *{
+    margin:0 ; 
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Rubik', sans-serif;
+    color: #444;
+ }
+
+ header{
+    height: 100vh;
+    background-color: orangered;
+    position: relative;
+ }
+
+ .container{
+    margin: 0 auto;
+    width: 1200px;
+ }
+
+ .header-container{
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+ .header-container-inner{
+    width: 50%;
+    background-color: greenyellow;
+ }
+
+ nav{
+    font-size: 20;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+ }
+
+ h1{
+    font-size: 52px;
+    margin-bottom: 32px;
+ }
+
+ p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 48px;
+ }
+.btn:link,
+.btn:visited{
+font-size: 20px;
+font-weight: 600;
+background-color: #e67e22;
+color:#fff;
+text-decoration: none;
+display: inline-block;
+padding: 16px 32px;
+border-radius: 9px;
+}
+
+h2{
+    font-size: 44px;
+    margin-bottom: 48px;
+}
+
+section{
+    padding: 96px 0;
+    background-color: #f7f7f7;
+}
